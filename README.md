@@ -1,1 +1,3 @@
-## Portfolio Website using Next.js, TypeScript, Tailwind CSS and Framer Motion.
+## Portfolio Website 
+
+Using Next.js, TypeScript, Tailwind CSS and Framer Motion.
