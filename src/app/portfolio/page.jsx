@@ -9,7 +9,8 @@ import img3 from "../../../public/3.png";
 import img4 from "../../../public/4.png";
 import img5 from "../../../public/5.png";
 import img6 from "../../../public/6.jpg";
-import img7 from "../../../public/cover.png";
+import img7 from "../../../public/7.png";
+import img8 from "../../../public/cover.png";
 
 const items = [
   {
@@ -31,8 +32,8 @@ const items = [
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
-    title: "Uniconnect",
-    desc: "Software used: Figma (Wireframing, Components)",
+    title: "Arogya",
+    desc: "Tech Stack used: PHP, Laravel, JavaScript",
     img: img3,
     link: "https://t.ly/wuHDP",
   },
@@ -62,10 +63,18 @@ const items = [
   },
   {
     id: 7,
+    color: "from-violet-300 to-purple-300",
+    title: "Uniconnect",
+    desc: "Software used: Figma (Wireframing, Components)",
+    img: img7,
+    link: "https://t.ly/wuHDP",
+  },
+  {
+    id: 8,
     color: "from-purple-300 to-red-300",
     title: "",
     desc: "",
-    img: img7,
+    img: img8,
     link: "",
   },
 ];
