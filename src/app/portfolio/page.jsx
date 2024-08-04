@@ -35,7 +35,7 @@ const items = [
     title: "Arogya",
     desc: "Tech Stack used: PHP, Laravel, JavaScript",
     img: img3,
-    link: "https://t.ly/wuHDP",
+    link: "https://t.ly/WRVAa",
   },
   {
     id: 4,
