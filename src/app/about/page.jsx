@@ -4,6 +4,7 @@ import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
 import me from "../../../public/me.jpg";
+import mine from "../../../public/mine.jpg";
 import map from "../../../public/map.jpg";
 
 const AboutPage = () => {
@@ -39,7 +40,7 @@ const AboutPage = () => {
           <div className="flex flex-col gap-12 justify-center">
             {/* BIOGRAPHY IMAGE */}
             <Image
-              src={me}
+              src={mine}
               alt="Me"
               width={112}
               height={112}
@@ -64,15 +65,9 @@ const AboutPage = () => {
               Get in touch:<br />Phone: +91 9798019110<br />Email: tankkritansh088@gmail.com
             </span>
             <span className="italic">
-              Based at: Dhanbad, Jharkhand, India
+              Currently At: Navi Mumbai, Maharashtra, India
+              Originally From: Dhanbad, Jharkhand, India
             </span>
-            <Image
-              src={map}
-              alt="Map"
-              width={500}
-              height={500}
-              className="w-40 h-40 object-cover"
-            />
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
               initial={{ opacity: 0.2, y: 0 }}
@@ -175,6 +170,9 @@ const AboutPage = () => {
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Flutter
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                REST API
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Azure
