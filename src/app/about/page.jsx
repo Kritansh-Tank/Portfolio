@@ -274,7 +274,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    July 2024 - Present
+                    October 2024 - Present
                   </div>
                 </div>
                 {/* CENTER */}
@@ -304,19 +304,19 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    AI & Cloud Intern
+                    Full Stack Development Intern
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    Built intelligent solutions and harnessed the power of the machine learning.{" "}
+                    Built Gen AI solutions and managed RESTful APIs.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    June 2024 - July 2024{" "}
+                    July 2024 - September 2024{" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Edunet Foundation
+                    Grid R&D
                   </div>
                 </div>
               </div>
@@ -418,7 +418,7 @@ const AboutPage = () => {
                   </div>
                   {/* LEVEL OF EDUCATION */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Expected Graduation: June 2025
+                    Expected Graduation: May 2025
                   </div>
                 </div>
                 {/* CENTER */}
