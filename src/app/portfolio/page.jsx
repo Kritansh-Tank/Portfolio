@@ -16,7 +16,7 @@ const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
-    title: "AI-Powered Student Assistance Chatbot",
+    title: "Student Assistance Chatbot",
     desc: "Tech Stack used: React.js, Vite.js, Tailwind CSS, TypeScript. Node.js",
     img: img1,
     link: "https://t.ly/4LAIT",
