@@ -335,7 +335,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    Oct 2023 - Nov 2023{" "}
+                    October 2023 - November 2023{" "}
                   </div>
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
                     Tutlabs India
@@ -414,7 +414,7 @@ const AboutPage = () => {
                   </div>
                   {/* YEARS OF STUDY */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    Aug 2021 - Present
+                    July 2021 - Present
                   </div>
                   {/* LEVEL OF EDUCATION */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
