@@ -63,14 +63,6 @@ const items = [
   },
   {
     id: 7,
-    color: "from-violet-300 to-purple-300",
-    title: "Uniconnect",
-    desc: "Software used: Figma (Wireframing, Components)",
-    img: img7,
-    link: "https://t.ly/wuHDP",
-  },
-  {
-    id: 8,
     color: "from-purple-300 to-red-300",
     title: "",
     desc: "",
