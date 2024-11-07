@@ -8,7 +8,7 @@ import img2 from "../../../public/2.png";
 import img3 from "../../../public/3.png";
 import img4 from "../../../public/4.png";
 import img5 from "../../../public/5.png";
-import img6 from "../../../public/6.jpg";
+import img6 from "../../../public/6.png";
 import img7 from "../../../public/7.png";
 import img8 from "../../../public/cover.png";
 
