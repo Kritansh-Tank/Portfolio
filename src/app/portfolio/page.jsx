@@ -26,7 +26,7 @@ const items = [
     color: "from-blue-300 to-violet-300",
     title: "Library Card Automation System",
     desc: "Tech Stack used: React.js, Vite.js, Tailwind CSS, TypeScript. Node.js, Express.js, Netlify",
-    img: img2,
+    img: img6,
     link: "https://t.ly/1iF3_",
   },
   {
@@ -58,7 +58,7 @@ const items = [
     color: "from-purple-300 to-red-300",
     title: "Celebrating Life",
     desc: "Tech Stack used: HTML, CSS, JavaScript, Express.js, Firebase, Netlify",
-    img: img6,
+    img: img2,
     link: "https://t.ly/TQnnl",
   },
   {
