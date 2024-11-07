@@ -41,7 +41,7 @@ const items = [
     id: 4,
     color: "from-purple-300 to-red-300",
     title: "ElevenX",
-    desc: "Tech Stack used: React.js",
+    desc: "Tech Stack used: React.js, JavaScript",
     img: img4,
     link: "https://github.com/Kritansh-Tank/ElevenX",
   },
