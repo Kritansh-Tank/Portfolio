@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
-import img1 from "../../../public/1.png";
+import img1 from "../../../public/10.png";
 import img2 from "../../../public/2.png";
 import img3 from "../../../public/8.png";
 import img4 from "../../../public/9.png";
