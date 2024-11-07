@@ -34,7 +34,7 @@ const items = [
     color: "from-violet-300 to-purple-300",
     title: "Quiz Quest",
     desc: "Tech Stack used: Java Swing and AWT",
-    img: img3,
+    img: img5,
     link: "https://t.ly/X1u9S",
   },
   {
@@ -50,7 +50,7 @@ const items = [
     color: "from-purple-300 to-red-300",
     title: "Arogya 24x7",
     desc: "Tech Stack used: Laravel, PHP",
-    img: img5,
+    img: img3,
     link: "https://t.ly/Xd8XY",
   },
   {
