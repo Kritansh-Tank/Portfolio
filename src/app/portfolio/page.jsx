@@ -19,7 +19,7 @@ const items = [
     title: "Student Assistance Chatbot",
     desc: "Tech Stack used: React.js, Vite.js, Tailwind CSS, TypeScript. Node.js",
     img: img1,
-    link: "https://t.ly/4LAIT",
+    link: "https://github.com/Kritansh-Tank/SIH-2024",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const items = [
     title: "Library Card Automation System",
     desc: "Tech Stack used: React.js, Vite.js, Tailwind CSS, TypeScript. Node.js, Express.js, Netlify",
     img: img6,
-    link: "https://t.ly/1iF3_",
+    link: "https://github.com/Kritansh-Tank/Automation-System",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const items = [
     title: "Quiz Quest",
     desc: "Tech Stack used: Java Swing and AWT",
     img: img5,
-    link: "https://t.ly/X1u9S",
+    link: "https://github.com/Kritansh-Tank/Quiz-Quest",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ const items = [
     title: "ElevenX",
     desc: "Tech Stack used: React.js",
     img: img4,
-    link: "https://t.ly/KqTzB",
+    link: "https://github.com/Kritansh-Tank/ElevenX",
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const items = [
     title: "Arogya 24x7",
     desc: "Tech Stack used: Laravel, PHP",
     img: img3,
-    link: "https://t.ly/Xd8XY",
+    link: "https://github.com/Kritansh-Tank/Arogya",
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ const items = [
     title: "Celebrating Life",
     desc: "Tech Stack used: HTML, CSS, JavaScript, Express.js, Firebase, Netlify",
     img: img2,
-    link: "https://t.ly/TQnnl",
+    link: "https://github.com/Kritansh-Tank/Celebrating-Life",
   },
   {
     id: 7,
