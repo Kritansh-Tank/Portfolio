@@ -406,7 +406,7 @@ const AboutPage = () => {
                   </div>
                   {/* COLLEGE NAME */}
                   <div className="p-3 text-sm italic">
-                    Bharati Vidyapeeth Deemed University, Department of Engineering and Technology{" "}
+                    Bharati Vidyapeeth (Deemed to be University) Department of Engineering and Technology{" "}
                   </div>
                   {/* COLLEGE NAME & LOCATION */}
                   <div className="p-3 text-sm italic">
@@ -418,7 +418,7 @@ const AboutPage = () => {
                   </div>
                   {/* LEVEL OF EDUCATION */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Expected Graduation: May 2025
+                    Expected Graduation: June 2025
                   </div>
                 </div>
                 {/* CENTER */}
