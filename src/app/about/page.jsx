@@ -241,7 +241,7 @@ const AboutPage = () => {
           </div>
           {/* EXPERIENCE CONTAINER */}
           <div
-            className="flex flex-col gap-12 justify-center pb-48"
+            className="flex flex-col gap-12 justify-center"
             ref={experienceRef}
           >
             {/* EXPERIENCE TITLE */}
@@ -382,7 +382,7 @@ const AboutPage = () => {
           </div>
           {/* EDUCATION CONTAINER */}
           <div
-            className="flex flex-col gap-12 justify-center pb-0"
+            className="flex flex-col gap-12 justify-center"
             ref={educationRef}
           >
             {/* EDUCATION TITLE */}
@@ -490,7 +490,7 @@ const AboutPage = () => {
           </div>
           {/* EXTRACURRICULAR CONTAINER */}
           <div
-            className="flex flex-col gap-12 justify-center pb-48"
+            className="flex flex-col gap-12 justify-center"
             ref={extraRef}
           >
             {/* EXTRACURRICULAR TITLE */}
