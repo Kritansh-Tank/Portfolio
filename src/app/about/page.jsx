@@ -265,16 +265,18 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Freelancer
+                    Software Devlopmert Intern
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I provide web solutions, applying a range of technologies
-                    to address client requirements.{" "}
+                    Developing and maintaining the company's website and software products (frontend and backend), while also assisting with AI features and ML models.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    October 2024 - Present
+                    July 2025 - Present
+                  </div>
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                    EcoReady
                   </div>
                 </div>
                 {/* CENTER */}
@@ -414,11 +416,7 @@ const AboutPage = () => {
                   </div>
                   {/* YEARS OF STUDY */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    July 2021 - Present
-                  </div>
-                  {/* LEVEL OF EDUCATION */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Expected Graduation: June 2025
+                    2021 - 2025
                   </div>
                 </div>
                 {/* CENTER */}
@@ -460,11 +458,7 @@ const AboutPage = () => {
                   </div>
                   {/* YEARS OF STUDY */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    March 2008 - June 2021{" "}
-                  </div>
-                  {/* LEVEL OF EDUCATION */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Primary & Secondary Level
+                    2008 - 2021{" "}
                   </div>
                 </div>
               </div>
