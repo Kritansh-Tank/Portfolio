@@ -379,7 +379,7 @@ const AboutPage = () => {
                 <div className="w-1/3">
                   {/* SCHOOL MAJOR */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    PCM with Computer Science
+                    10th & 12th (ICSE board)
                   </div>
                   {/* SCHOOL NAME */}
                   <div className="p-3 text-sm italic">
