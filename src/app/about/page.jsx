@@ -58,14 +58,6 @@ const AboutPage = () => {
               expectations. Let&#39;s connect and discuss how I can
               help you achieve your goals!
             </p>
-            {/* BIOGRAPHY QUOTE */}
-            <span className="italic">
-              Get in touch:<br />Phone: +91 9798019110<br />Email: tankkritansh088@gmail.com
-            </span>
-            <span className="italic">
-              Currently At: Navi Mumbai, Maharashtra, India
-              Originally From: Dhanbad, Jharkhand, India
-            </span>
           </div>
           {/* SKILLS CONTAINER */}
           <div className="flex flex-col gap-12 justify-center" ref={skillRef}>
