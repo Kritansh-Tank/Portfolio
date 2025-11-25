@@ -1,8 +1,8 @@
-# 💼 Professional Portfolio Website
+# Portfolio Website
 
 🚀 Live Demo: [kritansh-tank.github.io/Portfolio](https://kritansh-tank.github.io/Portfolio/)
 
-This is a professional portfolio website built to serve as an **online resume** and showcase my **skills**, **projects**, and **contact information** in a visually appealing and responsive format.
+This is my portfolio website built to serve as an **online resume** and showcase my **skills**, **projects**, and **contact information** in a visually appealing and responsive format.
 
 ---
 
