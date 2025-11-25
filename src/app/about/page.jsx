@@ -269,12 +269,13 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    Developing and maintaining the company&#39;s website and software products (frontend and backend), while also assisting with AI features and ML models.{" "}
+                    Developing software products, while also assisting with AI features and ML models.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    July 2025 - Present
+                    July - Present (2025){" "}
                   </div>
+                  {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
                     EcoReady
                   </div>
@@ -314,7 +315,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    July 2024 - September 2024{" "}
+                    July - Sept (2024){" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
@@ -337,10 +338,11 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    October 2023 - November 2023{" "}
+                    Oct - Nov (2023){" "}
                   </div>
+                  {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Tutlabs India
+                    Tutlabs
                   </div>
                 </div>
                 {/* CENTER */}
@@ -380,7 +382,7 @@ const AboutPage = () => {
           </div>
           {/* EDUCATION CONTAINER */}
           <div
-            className="flex flex-col gap-12 justify-center pb-48"
+            className="flex flex-col gap-12 justify-center pb-0"
             ref={educationRef}
           >
             {/* EDUCATION TITLE */}
