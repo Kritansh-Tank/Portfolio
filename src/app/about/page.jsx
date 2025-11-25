@@ -269,7 +269,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    Developing and maintaining the company's website and software products (frontend and backend), while also assisting with AI features and ML models.{" "}
+                    Developing and maintaining the company&#39;s website and software products (frontend and backend), while also assisting with AI features and ML models.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
