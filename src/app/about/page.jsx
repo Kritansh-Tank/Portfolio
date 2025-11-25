@@ -3,7 +3,7 @@ import Brain from "@/components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
-import mine from "../../../public/mine.jpg";
+import mine from "../../../public/mine.jpeg";
 
 const AboutPage = () => {
   const containerRef = useRef();
