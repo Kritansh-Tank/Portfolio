@@ -230,7 +230,7 @@ const AboutPage = () => {
                     July - Present (2025){" "}
                   </div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                  <div className="p-3 rounded bg-white text-sm font-semibold w-fit">
                     EcoReady
                   </div>
                 </div>
@@ -272,7 +272,7 @@ const AboutPage = () => {
                     July - Sept (2024){" "}
                   </div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                  <div className="p-3 rounded bg-white text-sm font-semibold w-fit">
                     Grid R&D
                   </div>
                 </div>
@@ -287,15 +287,14 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I was in frontend web development team, offering expertise in JavaScript
-                    frameworks.{" "}
+                    Served as a frontend developer, contributing deep knowledge of JavaScript frameworks.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
                     Oct - Nov (2023){" "}
                   </div>
                   {/* JOB COMPANY */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                  <div className="p-3 rounded bg-white text-sm font-semibold w-fit">
                     Tutlabs
                   </div>
                 </div>
