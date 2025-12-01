@@ -43,7 +43,7 @@ const Homepage = () => {
               Contact Me
               </button>
             </Link>
-            <Link href="https://drive.google.com/file/d/1X4hiLZv5TYnCJDVOz1VoBbNMJ3feqdgF/view?usp=drive_link">
+            <Link href="https://drive.google.com/file/d/1lY03sj20XgYRrQOQOsTLQkOHhCFx2X3P/view?usp=drive_link">
               <button className="p-3.5 rounded-lg bg-white text-black">
                 Resume
               </button>
