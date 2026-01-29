@@ -3,69 +3,69 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
-import img1 from "../../../public/10.png";
-import img2 from "../../../public/2.png";
-import img3 from "../../../public/8.png";
-import img4 from "../../../public/9.png";
-import img5 from "../../../public/5.png";
-import img6 from "../../../public/6.png";
-import img8 from "../../../public/cover.png";
+import student_assistance_chatbot from "../../../public/student_assistance_chatbot.png";
+import library_card_automation_system from "../../../public/library_card_automation_system.png";
+import quiz_quest from "../../../public/quiz_quest.png";
+import elevenx from "../../../public/elevenx.png";
+import arogya from "../../../public/arogya.png";
+import celebrating_life from "../../../public/celebrating_life.png";
+import cover from "../../../public/cover.png";
 
 const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
     title: "Student Assistance Chatbot",
-    desc: "Tech Stack used: React.js, Vite.js, Tailwind CSS, TypeScript. Node.js",
-    img: img1,
+    desc: "Tech Stack: React.js, Tailwind CSS, TypeScript, Node.js",
+    img: student_assistance_chatbot,
     link: "https://github.com/Kritansh-Tank/SIH-2024",
   },
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
     title: "Library Card Automation System",
-    desc: "Tech Stack used: React.js, Vite.js, Tailwind CSS, TypeScript. Node.js, Express.js, Netlify",
-    img: img6,
+    desc: "Tech Stack: React.js, Tailwind, TypeScript, Node.js, Express.js, Netlify",
+    img: library_card_automation_system,
     link: "https://github.com/Kritansh-Tank/Automation-System",
   },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
     title: "Quiz Quest",
-    desc: "Tech Stack used: Java Swing and AWT",
-    img: img5,
+    desc: "Tech Stack: Java Swing, AWT, JDBC, MySQL",
+    img: quiz_quest,
     link: "https://github.com/Kritansh-Tank/Quiz-Quest",
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
     title: "ElevenX",
-    desc: "Tech Stack used: React.js, JavaScript",
-    img: img4,
+    desc: "Tech Stack: React.js, JavaScript",
+    img: elevenx,
     link: "https://github.com/Kritansh-Tank/ElevenX",
   },
   {
     id: 5,
-    color: "from-purple-300 to-red-300",
+    color: "from-red-300 to-blue-300",
     title: "Arogya 24x7",
-    desc: "Tech Stack used: Laravel, PHP",
-    img: img3,
+    desc: "Tech Stack: Laravel, PHP, MVC Architecture",
+    img: arogya,
     link: "https://github.com/Kritansh-Tank/Arogya",
   },
   {
     id: 6,
-    color: "from-purple-300 to-red-300",
+    color: "from-blue-300 to-violet-300",
     title: "Celebrating Life",
-    desc: "Tech Stack used: HTML, CSS, JavaScript, Express.js, Firebase, Netlify",
-    img: img2,
+    desc: "Tech Stack: HTML5, CSS3, JavaScript, Express.js, Firebase, Netlify",
+    img: celebrating_life,
     link: "https://github.com/Kritansh-Tank/Celebrating-Life",
   },
   {
     id: 7,
-    color: "from-red-300 to-purple-300",
+    color: "from-violet-300 to-purple-300",
     title: "",
     desc: "",
-    img: img8,
+    img: cover,
     link: "",
   },
 ];
@@ -96,17 +96,19 @@ const PortfolioPage = () => {
                 key={item.id}
               >
                 <div className="flex flex-col gap-8 text-white">
-                  <h1 className="text-xl font-bold md:text-4xl lg:text-6xl xl:text-8xl">
-                    {item.title}
-                  </h1>
                   <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
                     <Image src={item.img} alt="Image" fill />
                   </div>
+                  <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px] font-bold">
+                    {item.title}
+                  </p>
                   <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px]">
                     {item.desc}
                   </p>
                   <Link href={item.link} className="flex justify-end">
-                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">See Source</button>
+                    <button className="p-2 text-sm md:p-4 md:text-md lg:p-8 lg:text-lg bg-white text-gray-600 font-semibold m-4 rounded">
+                      See Source
+                    </button>
                   </Link>
                 </div>
               </div>

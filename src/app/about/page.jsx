@@ -11,7 +11,6 @@ const AboutPage = () => {
   const { scrollYProgress } = useScroll({ container: containerRef });
 
   const skillRef = useRef();
-  // const isSkillRefInView = useInView(skillRef, {once:true});
   const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
 
   const experienceRef = useRef();
@@ -22,6 +21,9 @@ const AboutPage = () => {
 
   const extraRef = useRef();
   const isExtraRefInView = useInView(extraRef, { margin: "-100px" });
+
+  const languageRef = useRef();
+  const isLanguageRefInView = useInView(languageRef, { margin: "-100px" });
 
   return (
     <motion.div
@@ -48,15 +50,17 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">KRITANSH TANK</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              I&#39;m a passionate web developer with a knack for crafting engaging
-              and user-friendly digital experiences. I thrive on transforming
-              ideas into interactive websites and applications that not only
-              look great but also function seamlessly.<br /><br />I&#39;m always
-              eager to learn and stay up-to-date with the latest trends and
-              technologies. I believe that continuous
-              improvement is key to delivering high-quality work that exceeds
-              expectations. Let&#39;s connect and discuss how I can
-              help you achieve your goals!
+              I&#39;m a passionate web developer with a knack for crafting
+              engaging and user-friendly digital experiences. I thrive on
+              transforming ideas into interactive websites and applications that
+              not only look great but also function seamlessly.
+              <br />
+              <br />
+              I&#39;m always eager to learn and stay up-to-date with the latest
+              trends and technologies. I believe that continuous improvement is
+              key to delivering high-quality work that exceeds expectations.
+              Let&#39;s connect and discuss how I can help you achieve your
+              goals!
             </p>
           </div>
           {/* SKILLS CONTAINER */}
@@ -83,34 +87,28 @@ const AboutPage = () => {
                 TypeScript
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                React.js
+                MERN
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Next.js
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                CSS
+                NestJS
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Tailwind CSS
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Framer Motion
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 MongoDB
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                PostgreSQL
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 CRUD
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                MySQL
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Node.js
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                HTML
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Express.js
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Python
@@ -119,24 +117,34 @@ const AboutPage = () => {
                 Django
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Flask
+                FastAPI
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Tensorflow
-              </div><div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Dialogflow
+                TensorFlow
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                OpenCV
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Java
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                C
+                JDBC
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                C++
+                Celery
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Framer Motion
+                RabbitMQ
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Redis
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                CORS
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                OAuth
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 PHP
@@ -145,22 +153,10 @@ const AboutPage = () => {
                 Laravel
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Flutter
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 REST API
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Postman
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Azure
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Vite.js
-              </div>
-              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                Netlify
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 AWS
@@ -178,13 +174,20 @@ const AboutPage = () => {
                 Docker
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Microservices
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Kubernetes
+              </div>
+              <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
+                Zoho Office Suite
               </div>
               <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                 Figma
               </div>
             </motion.div>
           </div>
+
           {/* EXPERIENCE CONTAINER */}
           <div
             className="flex flex-col gap-12 justify-center"
@@ -215,11 +218,12 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    Developing software products, while also assisting with AI features and ML models.{" "}
+                    Developing software products, while also assisting with AI
+                    features and ML models.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    July - Present (2025){" "}
+                    July - Dec (2025){" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-3 rounded bg-white text-sm font-semibold w-fit">
@@ -279,7 +283,8 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    Served as a frontend developer, contributing deep knowledge of JavaScript frameworks.{" "}
+                    Served as a frontend developer, contributing deep knowledge
+                    of JavaScript frameworks.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
@@ -303,6 +308,7 @@ const AboutPage = () => {
               </div>
             </motion.div>
           </div>
+
           {/* EDUCATION CONTAINER */}
           <div
             className="flex flex-col gap-12 justify-center"
@@ -333,7 +339,8 @@ const AboutPage = () => {
                   </div>
                   {/* COLLEGE NAME */}
                   <div className="p-3 text-sm italic">
-                    Bharati Vidyapeeth (Deemed to be University) Department of Engineering and Technology{" "}
+                    Bharati Vidyapeeth (Deemed to be University) Department of
+                    Engineering and Technology{" "}
                   </div>
                   {/* COLLEGE NAME & LOCATION */}
                   <div className="p-3 text-sm italic">
@@ -389,11 +396,9 @@ const AboutPage = () => {
               </div>
             </motion.div>
           </div>
+
           {/* EXTRACURRICULAR CONTAINER */}
-          <div
-            className="flex flex-col gap-12 justify-center"
-            ref={extraRef}
-          >
+          <div className="flex flex-col gap-12 justify-center" ref={extraRef}>
             {/* EXTRACURRICULAR TITLE */}
             <motion.h1
               initial={{ x: "-300px" }}
@@ -483,7 +488,98 @@ const AboutPage = () => {
               </div>
             </motion.div>
           </div>
-          
+
+          {/* LANGUAGES CONTAINER */}
+          <div className="flex flex-col gap-12 justify-center" ref={extraRef}>
+            {/* LANGUAGES TITLE */}
+            <motion.h1
+              initial={{ x: "-300px" }}
+              animate={isLanguageRefInView ? { x: "0" } : {}}
+              transition={{ delay: 0.2 }}
+              className="font-bold text-2xl"
+            >
+              LANGUAGES
+            </motion.h1>
+            {/* LANGUAGES LIST */}
+            <motion.div
+              initial={{ x: "-300px" }}
+              animate={isLanguageRefInView ? { x: "0" } : {}}
+              className=""
+            >
+              {/* LANGUAGES LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 ">
+                  {/* POST TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    English
+                  </div>
+                  {/* POST DATE */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">
+                    Intermediate
+                  </div>
+                </div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-blue-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 "></div>
+              </div>
+              {/* LANGUAGES LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 "></div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-blue-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 ">
+                  {/* POST TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    Hindi
+                  </div>
+                  {/* POST DATE */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">
+                    Fluent
+                  </div>
+                </div>
+              </div>
+              {/* LANGUAGES LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 ">
+                  {/* POST TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    Gujarati
+                  </div>
+                  {/* POST DATE */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">
+                    Native
+                  </div>
+                </div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-blue-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 "></div>
+              </div>
+            </motion.div>
+          </div>
         </div>
         {/* SVG CONTAINER */}
         <div className="hidden lg:block w-1/3 sticky top-0 z-30 xl:w-1/2 scrollbar-hide">

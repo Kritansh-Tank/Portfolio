@@ -8,13 +8,13 @@ import { motion } from "framer-motion";
 import github from "../../public/github.svg";
 import gfg from "../../public/geeksforgeeks.svg";
 import linkedin from "../../public/linkedin.svg";
-import instagram from "../../public/instagram.svg";
 
 const links = [
   { url: "/", title: "Home" },
   { url: "/about", title: "About" },
   { url: "/portfolio", title: "Portfolio" },
   { url: "/contact", title: "Contact" },
+  { url: "/certifications", title: "Certifications" },
 ];
 
 const Navbar = () => {
@@ -22,12 +22,6 @@ const Navbar = () => {
 
   return (
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
-      {/* LINKS */}
-      <div className="hidden md:flex gap-4 w-1/3">
-        {links.map((link) => (
-          <NavLink link={link} key={link.title} setOpen={setOpen} />
-        ))}
-      </div>
       {/* LOGO */}
       <div className="md:hidden lg:flex xl:w-1/3 xl:justify-center">
         <Link href="/" legacyBehavior>
@@ -39,11 +33,17 @@ const Navbar = () => {
           </a>
         </Link>
       </div>
+      {/* LINKS */}
+      <div className="hidden md:flex gap-4 w-full justify-center">
+        {links.map((link) => (
+          <NavLink className="text-base" link={link} key={link.title} setOpen={setOpen} />
+        ))}
+      </div>
       {/* SOCIAL */}
-      <div className="hidden md:flex gap-4 w-1/3">
-        <Link href="https://github.com/Kritansh-Tank" legacyBehavior>
+      <div className="hidden md:flex gap-4 w-1/3 justify-end">
+        <Link href="https://www.linkedin.com/in/kritansh-tank-a4632a216/" legacyBehavior>
           <a>
-            <Image src={github} alt="GitHub" width={26} height={26} />
+            <Image src={linkedin} alt="LinkedIn" width={24} height={24} />
           </a>
         </Link>
         <Link href="https://www.geeksforgeeks.org/user/tankkritvdhq" legacyBehavior>
@@ -51,14 +51,9 @@ const Navbar = () => {
             <Image src={gfg} alt="GeeksforGeeks" width={27} height={27} />
           </a>
         </Link>
-        <Link href="https://www.linkedin.com/in/kritansh-tank-a4632a216/" legacyBehavior>
+        <Link href="https://github.com/Kritansh-Tank" legacyBehavior>
           <a>
-            <Image src={linkedin} alt="LinkedIn" width={24} height={24} />
-          </a>
-        </Link>
-        <Link href="https://www.instagram.com/_kritansh_._/" legacyBehavior>
-          <a>
-            <Image src={instagram} alt="Instagram" width={24} height={24} />
+            <Image src={github} alt="GitHub" width={26} height={26} />
           </a>
         </Link>
       </div>
