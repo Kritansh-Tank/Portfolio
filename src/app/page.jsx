@@ -45,7 +45,7 @@ const Homepage = () => {
             </a>
             <a href="/transcript.pdf" target="_blank" rel="noopener noreferrer">
               <button className="p-4 rounded-lg bg-white text-black">
-                Bachelor&apos;s Transcript
+                Bachelor's Transcript
               </button>
             </a>
           </div>

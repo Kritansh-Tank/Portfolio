@@ -10,6 +10,7 @@ import CampX from "../../../public/CampX.jpg";
 import Bosch from "../../../public/Bosch.jpg";
 import Micelio from "../../../public/Micelio.jpg";
 import MBRDI from "../../../public/MBRDI.jpg";
+import cover from "../../../public/cover.png";
 
 const days = [
   {
