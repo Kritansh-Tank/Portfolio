@@ -38,12 +38,12 @@ const Homepage = () => {
                 View My Work
               </button>
             </Link>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/Portfolio/resume.pdf" target="_blank" rel="noopener noreferrer">
               <button className="p-4 rounded-lg ring-1 ring-black bg-transparent text-black">
                 Resume
               </button>
             </a>
-            <a href="/transcript.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/Portfolio/transcript.pdf" target="_blank" rel="noopener noreferrer">
               <button className="p-4 rounded-lg bg-white text-black">
                 Bachelor&apos;s Transcript
               </button>
