@@ -12,9 +12,9 @@ import linkedin from "../../public/linkedin.svg";
 const links = [
   { url: "/", title: "Home" },
   { url: "/about", title: "About" },
-  { url: "/portfolio", title: "Portfolio" },
-  { url: "/contact", title: "Contact" },
-  { url: "/certifications", title: "Certifications" },
+  { url: "/builds", title: "Builds" },
+  { url: "/exposure", title: "Exposure" },
+  { url: "/badges", title: "Badges" },
 ];
 
 const Navbar = () => {
