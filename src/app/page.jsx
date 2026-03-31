@@ -33,21 +33,21 @@ const Homepage = () => {
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4">
-            <Link href="/builds">
+            <Link href="/portfolio">
               <button className="p-4 rounded-lg bg-black text-white">
                 View My Work
               </button>
             </Link>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <Link href="/contact">
               <button className="p-4 rounded-lg ring-1 ring-black bg-transparent text-black">
+              Contact Me
+              </button>
+            </Link>
+            <Link href="https://drive.google.com/file/d/14Uffxgob_mm9VLEeUKrNjPC2rZNd6NGY/view?usp=drive_link">
+              <button className="p-3.5 rounded-lg bg-white text-black">
                 Resume
               </button>
-            </a>
-            <a href="/transcript.pdf" target="_blank" rel="noopener noreferrer">
-              <button className="p-4 rounded-lg bg-white text-black">
-                Bachelor's Transcript
-              </button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
