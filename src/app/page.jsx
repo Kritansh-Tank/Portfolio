@@ -19,7 +19,7 @@ const Homepage = () => {
           <Image src={coder} alt="Coder" fill className="object-contain" />
         </div>
         {/* TEXT CONTAINER */}
-        <div className="h-2/3 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center pb-8 z-10">
+        <div className="h-2/3 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center pb-8 z-10 mt-10">
           {/* TITLE */}
           <h1 className="text-4xl md:text-6xl font-bold">
             Crafting Digital Experiences, Designing Tomorrow.
@@ -38,12 +38,12 @@ const Homepage = () => {
                 View My Work
               </button>
             </Link>
-            <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/Portfolio/resume.pdf" target="_blank" rel="noopener noreferrer">
               <button className="p-4 rounded-lg ring-1 ring-black bg-transparent text-black">
                 Resume
               </button>
             </a>
-            <a href="/transcript.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/Portfolio/transcript.pdf" target="_blank" rel="noopener noreferrer">
               <button className="p-4 rounded-lg bg-white text-black">
                 Bachelor&apos;s Transcript
               </button>
