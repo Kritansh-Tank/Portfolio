@@ -15,11 +15,11 @@ const Homepage = () => {
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 overflow-x-hidden">
         {/* IMAGE CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 relative">
+        <div className="h-1/3 lg:h-full lg:w-1/2 relative">
           <Image src={coder} alt="Coder" fill className="object-contain" />
         </div>
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center pb-8">
+        <div className="h-2/3 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center pb-8 z-10">
           {/* TITLE */}
           <h1 className="text-4xl md:text-6xl font-bold">
             Crafting Digital Experiences, Designing Tomorrow.
