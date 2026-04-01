@@ -101,7 +101,7 @@ const ExposurePage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
-      <div className="h-full overflow-scroll">
+      <div className="h-full overflow-scroll overflow-x-hidden">
         <div className="p-4 sm:p-8 md:p-12 lg:p-20 xl:p-48 flex flex-col gap-16 md:gap-24">
           {/* HEADER SECTION */}
           <div
@@ -232,7 +232,7 @@ const TimelineItem = ({ item, index }) => {
       </div>
 
       {/* RIGHT */}
-      <div className={`w-5/12 ${!isLeft ? "" : "hidden sm:block"}`}>
+      <div className={`w-5/12 ${!isLeft ? "hidden sm:block" : "hidden sm:block"}`}>
         {!isLeft && (
           <motion.div
             initial={{ x: "100px", opacity: 0 }}
