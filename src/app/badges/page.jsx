@@ -15,7 +15,7 @@ import Cisco_Cybersecurity_Essentials from "../../../public/Cisco_Cybersecurity_
 const items = [
   {
     id: 1,
-    desc: "Azure AI Apps and Agents Developer Associate",
+    desc: "Azure AI Apps and Agents Developer",
     org: "Microsoft",
     img: Azure_AI_Apps_and_Agents_Developer_Associate,
   },
@@ -51,14 +51,14 @@ const items = [
   },
   {
     id: 7,
-    desc: "Google AI Essentials V1",
-    org: "Coursera",
+    desc: "AI Essentials",
+    org: "Google x Coursera",
     img: Google_AI_Essentials,
   },
   {
     id: 8,
-    desc: "Google Cybersecurity Professional Certificate V2",
-    org: "Coursera",
+    desc: "Cybersecurity Professional Certificate",
+    org: "Google x Coursera",
     img: Google_Cybersecurity_Professional_Certificate,
   },
   {
