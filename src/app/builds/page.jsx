@@ -12,30 +12,30 @@ const items = [
   {
     id: 1,
     title: "DataBoard",
-    desc: "A full-stack team food ordering app with Role-Based Access Control (RBAC) and country-based data isolation for secure, region-specific access.",
+    desc: "Full-stack data analytics platform that lets users upload CSV datasets, perform statistical analysis, explore interactive visualizations, and manage data through a secure cloud-deployed application.",
     img: DataBoard,
-    link: "https://github.com/Kritansh-Tank/Food-Ordering-Web-App",
+    link: "https://d2bnceyxxb14a6.cloudfront.net/",
   },
   {
     id: 2,
     title: "VIGIL",
-    desc: "Real-time industrial safety intelligence platform that combines live sensor streams, work permits, shift context, and historical incidents to detect compound risks before they escalate. It leverages AI agents, RAG, and LLMs to deliver intelligent risk assessment, permit validation, incident analysis, and emergency response for heavy industrial environments.",
+    desc: "Real-time industrial safety intelligence platform that combines live IoT sensor data, work permits, shift context, and historical incidents to detect compound risks and generate AI-powered emergency response plans.",
     img: Vigil,
     link: "https://vigil-smoky.vercel.app/",
   },
   {
     id: 3,
     title: "TransitOps",
-    desc: "It is an innovative web-based platform designed to help users plan sustainable travel experiences while minimizing their environmental impact.",
+    desc: "Smart fleet management platform that streamlines vehicle and driver operations, AI-assisted trip dispatch, maintenance tracking, fuel analytics, reporting, and role-based access control.",
     img: TransitOps,
-    link: "https://github.com/Kritansh-Tank/EcoTravel",
+    link: "https://transitops-dusky.vercel.app/",
   },
   {
     id: 4,
     title: "GreenTrace",
-    desc: "Backend-heavy MERN app for disaster response with real-time data, geospatial mapping, AI-based location extraction, image verification, and social media monitoring.",
+    desc: "AI-powered carbon footprint reduction platform that analyzes personal emissions and uses a ReAct-based AI agent with specialized tools to generate personalized, actionable sustainability plans.",
     img: GreenTrace,
-    link: "https://github.com/Kritansh-Tank/Disaster-Response-Coordination-Platform",
+    link: "https://green-trace-topaz.vercel.app/",
   },
 ];
 
@@ -154,7 +154,7 @@ const ProjectCard = ({ item, index }) => {
         </p>
         <Link href={item.link} target="_blank" rel="noopener noreferrer">
           <button className="mt-2 px-6 py-3 bg-black text-white rounded-lg font-semibold text-sm hover:bg-gray-800 transition-colors">
-            See Source →
+            Live →
           </button>
         </Link>
       </motion.div>
