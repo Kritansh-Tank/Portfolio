@@ -15,7 +15,7 @@ import Cisco_Cybersecurity_Essentials from "../../../public/Cisco_Cybersecurity_
 const items = [
   {
     id: 1,
-    desc: "Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+    desc: "Azure AI Apps and Agents Developer Associate",
     org: "Microsoft",
     img: Azure_AI_Apps_and_Agents_Developer_Associate,
   },
@@ -39,7 +39,7 @@ const items = [
   },
   {
     id: 5,
-    desc: "EU CloudCamp4SMEs SMEs Employees Certification",
+    desc: "EU CloudCamp4SMEs SMEs Employees",
     org: "CloudCamp4SMEs",
     img: CloudCamp4SMEs,
   },
