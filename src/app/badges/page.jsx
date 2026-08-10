@@ -3,62 +3,69 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useRef, useState, useEffect } from "react";
 import CloudCamp4SMEs from "../../../public/CloudCamp4SMEs.jpg";
-import Gemini_Certified_Educator from "../../../public/Gemini_Certified_Educator.jpeg";
-import GitHub_Foundations from "../../../public/GitHub_Foundations.jpeg";
-import Google_AI_Essentials from "../../../public/Google_AI_Essentials.jpeg";
-import Accenture_Developer from "../../../public/Accenture_Developer.jpg";
-import Accenture_Consultant from "../../../public/Accenture_Consultant.jpg";
-import Google_Cybersecurity_Professional_Certificate from "../../../public/Google_Cybersecurity_Professional_Certificate.jpeg";
-import Cybersecurity_Essentials from "../../../public/Cybersecurity_Essentials.jpeg";
+import Gemini_Certified_Educator from "../../../public/Gemini_Certified_Educator.png";
+import GitHub_Foundations from "../../../public/GitHub_Foundations.png";
+import Google_AI_Essentials from "../../../public/Google_AI_Essentials.png";
+import Copado_Certified from "../../../public/Copado_Certified.png";
+import McKinsey_Forward from "../../../public/McKinsey_Forward.png";
+import Google_Cybersecurity_Professional_Certificate from "../../../public/Google_Cybersecurity_Professional_Certificate.png";
+import Cisco_Cybersecurity_Essentials from "../../../public/Cybersecurity_Essentials.png";
+import Azure_AI_Apps_and_Agents_Developer_Associate from "../../../public/Azure_AI_Apps_and_Agents_Developer_Associate.png";
 
 const items = [
   {
     id: 1,
-    desc: "EU CloudCamp4SMEs SMEs Employees Certification",
-    org: "CloudCamp4SMEs",
-    img: CloudCamp4SMEs,
+    desc: "Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+    org: "Microsoft",
+    img: Azure_AI_Apps_and_Agents_Developer_Associate,
   },
   {
     id: 2,
+    desc: "Copado Certified – Copado AI",
+    org: "Copado",
+    img: Copado_Certified,
+  },
+  {
+    id: 3,
+    desc: "McKinsey.org Forward Program",
+    org: "McKinsey.org",
+    img: McKinsey_Forward,
+  },
+  {
+    id: 4,
     desc: "Gemini Certified Educator",
     org: "Google for Education",
     img: Gemini_Certified_Educator,
   },
   {
-    id: 3,
+    id: 5,
+    desc: "EU CloudCamp4SMEs SMEs Employees Certification",
+    org: "CloudCamp4SMEs",
+    img: CloudCamp4SMEs,
+  },
+  {
+    id: 6,
     desc: "GitHub Foundations",
     org: "GitHub",
     img: GitHub_Foundations,
   },
   {
-    id: 4,
+    id: 7,
     desc: "Google AI Essentials V1",
     org: "Coursera",
     img: Google_AI_Essentials,
   },
   {
-    id: 5,
-    desc: "Accenture Developer Job Simulation",
-    org: "Forage",
-    img: Accenture_Developer,
-  },
-  {
-    id: 6,
-    desc: "Accenture Consultant Job Simulation",
-    org: "Forage",
-    img: Accenture_Consultant,
-  },
-  {
-    id: 7,
+    id: 8,
     desc: "Google Cybersecurity Professional Certificate V2",
     org: "Coursera",
     img: Google_Cybersecurity_Professional_Certificate,
   },
   {
-    id: 8,
+    id: 9,
     desc: "Cybersecurity Essentials",
     org: "Cisco Networking Academy",
-    img: Cybersecurity_Essentials,
+    img: Cisco_Cybersecurity_Essentials,
   },
 ];
 
