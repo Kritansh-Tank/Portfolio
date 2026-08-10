@@ -3,54 +3,38 @@ import { motion, useInView } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
-import FoodOrder from "../../../public/FoodOrder.png";
-import HireFlow from "../../../public/HireFlow.png";
-import EcoTravel from "../../../public/EcoTravel.png";
-import CrimeVision from "../../../public/CrimeVision.png";
-import Product_Management_Store from "../../../public/Product_Management_Store.png";
-import Disaster_Response_Coordination_Platform from "../../../public/Disaster_Response_Coordination_Platform.png";
+import DataBoard from "../../../public/DataBoard.png";
+import Vigil from "../../../public/Vigil.png";
+import TransitOps from "../../../public/TransitOps.png";
+import GreenTrace from "../../../public/GreenTrace.png";
 
 const items = [
   {
     id: 1,
-    title: "FoodOrder",
+    title: "DataBoard",
     desc: "A full-stack team food ordering app with Role-Based Access Control (RBAC) and country-based data isolation for secure, region-specific access.",
-    img: FoodOrder,
+    img: DataBoard,
     link: "https://github.com/Kritansh-Tank/Food-Ordering-Web-App",
   },
   {
     id: 2,
-    title: "HireFlow",
-    desc: "An autonomous web agent that monitors job boards, extracts listings, analyzes roles, and auto-fills application forms — powered by TinyFish Web Agent API.",
-    img: HireFlow,
-    link: "https://github.com/Kritansh-Tank/HireFlow",
+    title: "VIGIL",
+    desc: "Real-time industrial safety intelligence platform that combines live sensor streams, work permits, shift context, and historical incidents to detect compound risks before they escalate. It leverages AI agents, RAG, and LLMs to deliver intelligent risk assessment, permit validation, incident analysis, and emergency response for heavy industrial environments.",
+    img: Vigil,
+    link: "https://vigil-smoky.vercel.app/",
   },
   {
     id: 3,
-    title: "EcoTravel",
+    title: "TransitOps",
     desc: "It is an innovative web-based platform designed to help users plan sustainable travel experiences while minimizing their environmental impact.",
-    img: EcoTravel,
+    img: TransitOps,
     link: "https://github.com/Kritansh-Tank/EcoTravel",
   },
   {
     id: 4,
-    title: "CrimeVision AI",
-    desc: "AI-powered criminal detection system that analyzes CCTV and live feeds using GAN-based sketch conversion, face detection, and facial recognition for accurate suspect identification.",
-    img: CrimeVision,
-    link: "https://github.com/Kritansh-Tank/CrimeVision-AI",
-  },
-  {
-    id: 5,
-    title: "Product Management Store",
-    desc: "A Laravel-based product management web application that allows users to add, edit, and delete products. Data is stored in a JSON file and all operations are performed via AJAX without page reloads.",
-    img: Product_Management_Store,
-    link: "https://github.com/Kritansh-Tank/Product-Management-Store",
-  },
-  {
-    id: 6,
-    title: "Disaster Response Coordination Platform",
+    title: "GreenTrace",
     desc: "Backend-heavy MERN app for disaster response with real-time data, geospatial mapping, AI-based location extraction, image verification, and social media monitoring.",
-    img: Disaster_Response_Coordination_Platform,
+    img: GreenTrace,
     link: "https://github.com/Kritansh-Tank/Disaster-Response-Coordination-Platform",
   },
 ];
@@ -94,16 +78,6 @@ const PortfolioPage = () => {
               <ProjectCard key={item.id} item={item} index={index} />
             ))}
           </div>
-        </div>
-        {/* NOTE */}
-        <div className="mt-8 p-4 sm:p-6 bg-white rounded-xl text-center">
-          <p className="text-xs sm:text-sm text-gray-500 leading-relaxed italic">
-            <span className="font-semibold not-italic">📌 Note:</span> Most of my projects are not hosted live.
-            As someone who actively builds and experiments, I quickly hit the free-tier limits on platforms
-            like Render, Vercel, and Netlify — and alternatives like Railway and Fly.io come with paid plans.
-            All source code is available on GitHub for review. If you&apos;re a fellow developer or recruiter,
-            I trust you understand! 🙂
-          </p>
         </div>
 
         {/* FOOTER CTA */}

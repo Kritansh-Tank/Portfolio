@@ -464,7 +464,7 @@ const AboutPage = () => {
                   </div>
                   {/* CGPA */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    9.58 CGPA or 90.8%
+                    9.5 CGPA or 90%
                   </div>
                   {/* YEARS OF STUDY */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
