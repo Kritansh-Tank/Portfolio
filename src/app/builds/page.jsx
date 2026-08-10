@@ -3,55 +3,39 @@ import { motion, useInView } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
-import FoodOrder from "../../../public/FoodOrder.png";
-import HireFlow from "../../../public/HireFlow.png";
-import EcoTravel from "../../../public/EcoTravel.png";
-import CrimeVision from "../../../public/CrimeVision.png";
-import Product_Management_Store from "../../../public/Product_Management_Store.png";
-import Disaster_Response_Coordination_Platform from "../../../public/Disaster_Response_Coordination_Platform.png";
+import DataBoard from "../../../public/FoodOrder.png";
+import VIGIL from "../../../public/HireFlow.png";
+import TransitOps from "../../../public/EcoTravel.png";
+import GreenTrace from "../../../public/Disaster_Response_Coordination_Platform.png";
 
 const items = [
   {
     id: 1,
-    title: "FoodOrder",
-    desc: "A full-stack team food ordering app with Role-Based Access Control (RBAC) and country-based data isolation for secure, region-specific access.",
-    img: FoodOrder,
-    link: "https://github.com/Kritansh-Tank/Food-Ordering-Web-App",
+    title: "DataBoard",
+    desc: "Full-stack data analytics platform that lets users upload CSV datasets, perform statistical analysis, explore interactive visualizations, and manage data through a secure cloud-deployed application.",
+    img: DataBoard,
+    link: "https://d2bnceyxxb14a6.cloudfront.net/",
   },
   {
     id: 2,
-    title: "HireFlow",
-    desc: "An autonomous web agent that monitors job boards, extracts listings, analyzes roles, and auto-fills application forms — powered by TinyFish Web Agent API.",
-    img: HireFlow,
-    link: "https://github.com/Kritansh-Tank/HireFlow",
+    title: "VIGIL",
+    desc: "Real-time industrial safety intelligence platform that combines live sensor streams, work permits, shift context, and historical incidents to detect compound risks before they escalate. It leverages AI agents, RAG, and LLMs to deliver intelligent risk assessment, permit validation, incident analysis, and emergency response for heavy industrial environments.",
+    img: VIGIL,
+    link: "https://vigil-smoky.vercel.app/",
   },
   {
     id: 3,
-    title: "EcoTravel",
-    desc: "It is an innovative web-based platform designed to help users plan sustainable travel experiences while minimizing their environmental impact.",
-    img: EcoTravel,
-    link: "https://github.com/Kritansh-Tank/EcoTravel",
+    title: "TransitOps",
+    desc: "Enterprise-grade fleet management system with AI-powered dispatch advisory, predictive maintenance summaries, role-based access control, and real-time operational analytics, optimized for scalable transport operations.",
+    img: TransitOps,
+    link: "https://transitops-dusky.vercel.app/",
   },
   {
     id: 4,
-    title: "CrimeVision AI",
-    desc: "AI-powered criminal detection system that analyzes CCTV and live feeds using GAN-based sketch conversion, face detection, and facial recognition for accurate suspect identification.",
-    img: CrimeVision,
-    link: "https://github.com/Kritansh-Tank/CrimeVision-AI",
-  },
-  {
-    id: 5,
-    title: "Product Management Store",
-    desc: "A Laravel-based product management web application that allows users to add, edit, and delete products. Data is stored in a JSON file and all operations are performed via AJAX without page reloads.",
-    img: Product_Management_Store,
-    link: "https://github.com/Kritansh-Tank/Product-Management-Store",
-  },
-  {
-    id: 6,
-    title: "Disaster Response Coordination Platform",
-    desc: "Backend-heavy MERN app for disaster response with real-time data, geospatial mapping, AI-based location extraction, image verification, and social media monitoring.",
-    img: Disaster_Response_Coordination_Platform,
-    link: "https://github.com/Kritansh-Tank/Disaster-Response-Coordination-Platform",
+    title: "GreenTrace",
+    desc: "AI-powered carbon footprint reduction platform leveraging autonomous AI Agents, ReAct reasoning, and MCP-based tool calling to deliver personalized sustainability recommendations, secure user management, and cloud-native deployment.",
+    img: GreenTrace,
+    link: "https://green-trace-topaz.vercel.app/",
   },
 ];
 
@@ -180,7 +164,7 @@ const ProjectCard = ({ item, index }) => {
         </p>
         <Link href={item.link} target="_blank" rel="noopener noreferrer">
           <button className="mt-2 px-6 py-3 bg-black text-white rounded-lg font-semibold text-sm hover:bg-gray-800 transition-colors">
-            See Source →
+            Live →
           </button>
         </Link>
       </motion.div>
