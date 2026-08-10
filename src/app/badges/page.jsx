@@ -2,15 +2,15 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useRef, useState, useEffect } from "react";
-import CloudCamp4SMEs from "../../../public/CloudCamp4SMEs.jpg";
-import Gemini_Certified_Educator from "../../../public/Gemini_Certified_Educator.png";
-import GitHub_Foundations from "../../../public/GitHub_Foundations.png";
-import Google_AI_Essentials from "../../../public/Google_AI_Essentials.png";
+import Azure_AI_Apps_and_Agents_Developer_Associate from "../../../public/Azure_AI_Apps_and_Agents_Developer_Associate.png";
 import Copado_Certified from "../../../public/Copado_Certified.png";
 import McKinsey_Forward from "../../../public/McKinsey_Forward.png";
+import Gemini_Certified_Educator from "../../../public/Gemini_Certified_Educator.png";
+import CloudCamp4SMEs from "../../../public/CloudCamp4SMEs.jpg";
+import GitHub_Foundations from "../../../public/GitHub_Foundations.png";
+import Google_AI_Essentials from "../../../public/Google_AI_Essentials.png";
 import Google_Cybersecurity_Professional_Certificate from "../../../public/Google_Cybersecurity_Professional_Certificate.png";
-import Cisco_Cybersecurity_Essentials from "../../../public/Cybersecurity_Essentials.png";
-import Azure_AI_Apps_and_Agents_Developer_Associate from "../../../public/Azure_AI_Apps_and_Agents_Developer_Associate.png";
+import Cisco_Cybersecurity_Essentials from "../../../public/Cisco_Cybersecurity_Essentials.png";
 
 const items = [
   {
