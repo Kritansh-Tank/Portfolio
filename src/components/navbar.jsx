@@ -61,18 +61,40 @@ const Navbar = () => {
       <div className="md:hidden">
         {/* MENU BUTTON */}
         <button
-          className="w-10 h-8 flex flex-col justify-between z-50 relative"
+          className="w-10 h-8 relative z-50"
           onClick={() => setOpen((prev) => !prev)}
         >
+          {/* Top bar */}
           <motion.div
-            className={`w-10 h-1 bg-black rounded ${open ? "transform rotate-45" : ""}`}
-          ></motion.div>
+            className="w-10 h-1 rounded absolute left-0"
+            animate={
+              open
+                ? { top: "50%", rotate: 45, backgroundColor: "#ffffff", y: "-50%" }
+                : { top: "0%", rotate: 0, backgroundColor: "#000000", y: "0%" }
+            }
+            transition={{ duration: 0.3 }}
+          />
+          {/* Middle bar */}
           <motion.div
-            className={`w-10 h-1 bg-black rounded ${open ? "opacity-0" : "opacity-100"}`}
-          ></motion.div>
+            className="w-10 h-1 rounded absolute left-0"
+            style={{ top: "50%", y: "-50%" }}
+            animate={
+              open
+                ? { opacity: 0, backgroundColor: "#ffffff" }
+                : { opacity: 1, backgroundColor: "#000000" }
+            }
+            transition={{ duration: 0.2 }}
+          />
+          {/* Bottom bar */}
           <motion.div
-            className={`w-10 h-1 bg-black rounded ${open ? "transform -rotate-45" : ""}`}
-          ></motion.div>
+            className="w-10 h-1 rounded absolute left-0"
+            animate={
+              open
+                ? { bottom: "50%", rotate: -45, backgroundColor: "#ffffff", y: "50%" }
+                : { bottom: "0%", rotate: 0, backgroundColor: "#000000", y: "0%" }
+            }
+            transition={{ duration: 0.3 }}
+          />
         </button>
         {/* MENU LIST */}
         {open && (
