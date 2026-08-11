@@ -3,10 +3,12 @@ import Brain from "@/components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { useRef } from "react";
-import mine from "../../../public/mine.jpeg";
-import universityLogo from "../../../public/university_logo.png";
-import collegeLogo from "../../../public/college_logo.jpg";
-import schoolLogo from "../../../public/school_logo.png";
+const BASE =
+  "https://raw.githubusercontent.com/Kritansh-Tank/Portfolio/main/public";
+const mine = `${BASE}/mine.jpeg`;
+const universityLogo = `${BASE}/university_logo.png`;
+const collegeLogo = `${BASE}/college_logo.jpg`;
+const schoolLogo = `${BASE}/school_logo.png`;
 
 const AboutPage = () => {
   const containerRef = useRef();

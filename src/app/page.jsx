@@ -3,7 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import coder from "../../public/coder.gif";
+const coderGif =
+  "https://raw.githubusercontent.com/Kritansh-Tank/Portfolio/main/public/coder.gif";
 
 const Homepage = () => {
   return (
@@ -16,7 +17,7 @@ const Homepage = () => {
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 overflow-x-hidden">
         {/* IMAGE CONTAINER */}
         <div className="h-1/3 lg:h-full lg:w-1/2 relative">
-          <Image src={coder} alt="Coder" fill className="object-contain" />
+          <Image src={coderGif} alt="Coder" fill className="object-contain" unoptimized />
         </div>
         {/* TEXT CONTAINER */}
         <div className="h-2/3 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center pb-8 z-10 mt-10">

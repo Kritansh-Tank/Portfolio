@@ -3,38 +3,38 @@ import { motion, useInView } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
-import DataBoard from "../../../public/DataBoard.png";
-import Vigil from "../../../public/Vigil.png";
-import TransitOps from "../../../public/TransitOps.png";
-import GreenTrace from "../../../public/GreenTrace.png";
+
+const BASE =
+  "https://raw.githubusercontent.com/Kritansh-Tank/Portfolio/main/public";
+
 
 const items = [
   {
     id: 1,
     title: "DataBoard",
     desc: "Full-stack data analytics platform that lets users upload CSV datasets, perform statistical analysis, explore interactive visualizations, and manage data through a secure cloud-deployed application.",
-    img: DataBoard,
+    img: `${BASE}/DataBoard.png`,
     link: "https://d2bnceyxxb14a6.cloudfront.net/",
   },
   {
     id: 2,
     title: "VIGIL",
     desc: "Real-time industrial safety intelligence platform that combines live IoT sensor data, work permits, shift context, and historical incidents to detect compound risks and generate AI-powered emergency response plans.",
-    img: Vigil,
+    img: `${BASE}/Vigil.png`,
     link: "https://vigil-smoky.vercel.app/",
   },
   {
     id: 3,
     title: "TransitOps",
     desc: "Smart fleet management platform that streamlines vehicle and driver operations, AI-assisted trip dispatch, maintenance tracking, fuel analytics, reporting, and role-based access control.",
-    img: TransitOps,
+    img: `${BASE}/TransitOps.png`,
     link: "https://transitops-dusky.vercel.app/",
   },
   {
     id: 4,
     title: "GreenTrace",
     desc: "AI-powered carbon footprint reduction platform that analyzes personal emissions and uses a ReAct-based AI agent with specialized tools to generate personalized, actionable sustainability plans.",
-    img: GreenTrace,
+    img: `${BASE}/GreenTrace.png`,
     link: "https://green-trace-topaz.vercel.app/",
   },
 ];

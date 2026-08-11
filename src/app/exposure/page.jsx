@@ -2,14 +2,16 @@
 import { motion, useInView, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useRef, useState, useEffect, useCallback } from "react";
-import indiaFlag from "../../../public/india.png";
-import germanyFlag from "../../../public/germany.png";
-import KDEM from "../../../public/KDEM.jpg";
-import vc888 from "../../../public/888vc.jpg";
-import CampX from "../../../public/CampX.jpg";
-import Bosch from "../../../public/Bosch.jpg";
-import Micelio from "../../../public/Micelio.jpg";
-import MBRDI from "../../../public/MBRDI.jpg";
+const BASE =
+  "https://raw.githubusercontent.com/Kritansh-Tank/Portfolio/main/public";
+const indiaFlag = `${BASE}/india.png`;
+const germanyFlag = `${BASE}/germany.png`;
+const KDEM = `${BASE}/KDEM.jpg`;
+const vc888 = `${BASE}/888vc.jpg`;
+const CampX = `${BASE}/CampX.jpg`;
+const Bosch = `${BASE}/Bosch.jpg`;
+const Micelio = `${BASE}/Micelio.jpg`;
+const MBRDI = `${BASE}/MBRDI.jpg`;
 
 const days = [
   {
