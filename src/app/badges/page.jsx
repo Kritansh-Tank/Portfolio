@@ -2,76 +2,64 @@
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { useRef, useState, useEffect } from "react";
-import Azure_AI_Apps_and_Agents_Developer_Associate from "../../../public/Azure_AI_Apps_and_Agents_Developer_Associate.png";
-import Copado_Certified from "../../../public/Copado_Certified.png";
-import McKinsey_Forward from "../../../public/McKinsey_Forward.png";
-import Gemini_Certified_Educator from "../../../public/Gemini_Certified_Educator.png";
-import CloudCamp4SMEs from "../../../public/CloudCamp4SMEs.jpg";
-import GitHub_Foundations from "../../../public/GitHub_Foundations.png";
-import Google_AI_Essentials from "../../../public/Google_AI_Essentials.png";
-import Google_Cybersecurity_Professional_Certificate from "../../../public/Google_Cybersecurity_Professional_Certificate.png";
-import Cisco_Cybersecurity_Essentials from "../../../public/Cisco_Cybersecurity_Essentials.png";
-import Java_Training from "../../../public/Java_Training.jpeg";
-import JavaScript_Training from "../../../public/JavaScript_Training.jpeg";
-import Linux_Training from "../../../public/Linux_Training.jpeg";
-import BASH_Training from "../../../public/BASH_Training.jpeg";
-import LaTeX_Training from "../../../public/LaTeX_Training.jpeg";
-import GSSoC_Badge from "../../../public/gssoc-badge-role_contributor.png";
+
+const BASE =
+  "https://raw.githubusercontent.com/Kritansh-Tank/Portfolio/main/public";
 
 const certItems = [
   {
     id: 1,
     desc: "Azure AI Apps and Agents Developer",
     org: "Microsoft",
-    img: Azure_AI_Apps_and_Agents_Developer_Associate,
+    img: `${BASE}/Azure_AI_Apps_and_Agents_Developer_Associate.png`,
   },
   {
     id: 2,
     desc: "Copado Certified – Copado AI",
     org: "Copado",
-    img: Copado_Certified,
+    img: `${BASE}/Copado_Certified.png`,
   },
   {
     id: 3,
     desc: "McKinsey.org Forward Program",
     org: "McKinsey.org",
-    img: McKinsey_Forward,
+    img: `${BASE}/McKinsey_Forward.png`,
   },
   {
     id: 4,
     desc: "Gemini Certified Educator",
     org: "Google for Education",
-    img: Gemini_Certified_Educator,
+    img: `${BASE}/Gemini_Certified_Educator.png`,
   },
   {
     id: 5,
     desc: "EU CloudCamp4SMEs SMEs Employees",
     org: "CloudCamp4SMEs",
-    img: CloudCamp4SMEs,
+    img: `${BASE}/CloudCamp4SMEs.jpg`,
   },
   {
     id: 6,
     desc: "GitHub Foundations",
     org: "GitHub",
-    img: GitHub_Foundations,
+    img: `${BASE}/GitHub_Foundations.png`,
   },
   {
     id: 7,
     desc: "AI Essentials",
     org: "Google x Coursera",
-    img: Google_AI_Essentials,
+    img: `${BASE}/Google_AI_Essentials.png`,
   },
   {
     id: 8,
     desc: "Cybersecurity Professional Certificate",
     org: "Google x Coursera",
-    img: Google_Cybersecurity_Professional_Certificate,
+    img: `${BASE}/Google_Cybersecurity_Professional_Certificate.png`,
   },
   {
     id: 9,
     desc: "Cybersecurity Essentials",
     org: "Cisco Networking Academy",
-    img: Cisco_Cybersecurity_Essentials,
+    img: `${BASE}/Cisco_Cybersecurity_Essentials.png`,
   },
 ];
 
@@ -80,31 +68,31 @@ const trainingItems = [
     id: 1,
     desc: "Java Training",
     org: "Spoken Tutorial Project, IIT Bombay",
-    img: Java_Training,
+    img: `${BASE}/Java_Training.jpeg`,
   },
   {
     id: 2,
     desc: "JavaScript Training",
     org: "Spoken Tutorial Project, IIT Bombay",
-    img: JavaScript_Training,
+    img: `${BASE}/JavaScript_Training.jpeg`,
   },
   {
     id: 3,
     desc: "Linux Training",
     org: "Spoken Tutorial Project, IIT Bombay",
-    img: Linux_Training,
+    img: `${BASE}/Linux_Training.jpeg`,
   },
   {
     id: 4,
     desc: "BASH Training",
     org: "Spoken Tutorial Project, IIT Bombay",
-    img: BASH_Training,
+    img: `${BASE}/BASH_Training.jpeg`,
   },
   {
     id: 5,
     desc: "LaTeX Training",
     org: "Spoken Tutorial Project, IIT Bombay",
-    img: LaTeX_Training,
+    img: `${BASE}/LaTeX_Training.jpeg`,
   },
 ];
 
@@ -115,7 +103,7 @@ const openSourceItems = [
     role: "Contributor",
     org: "GS Labs by GirlScript Foundation",
     desc: "Selected as a contributor in GSSoC 2026, an open-source program that helps beginners get started with open source development and contribute to real-world projects.",
-    badge: GSSoC_Badge,
+    badge: `${BASE}/gssoc-badge-role_contributor.png`,
     link: "https://github.com/Kritansh-Tank",
   },
 ];
@@ -159,6 +147,7 @@ const Marquee = ({ items }) => {
                   alt={item.desc}
                   fill
                   className="object-contain p-3"
+                  unoptimized
                 />
               </div>
               <div className="p-3">
@@ -262,16 +251,15 @@ const CertificationsPage = () => {
                   key={item.id}
                   className="bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col sm:flex-row items-center gap-6 p-6 sm:p-8 max-w-2xl w-full"
                 >
-                  {/* BADGE IMAGE */}
                   <div className="relative flex-shrink-0 w-36 h-36 sm:w-44 sm:h-44">
                     <Image
                       src={item.badge}
                       alt={item.program}
                       fill
                       className="object-contain"
+                      unoptimized
                     />
                   </div>
-                  {/* DETAILS */}
                   <div className="flex flex-col gap-3 text-center sm:text-left">
                     <span className="inline-block self-center sm:self-start bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">
                       {item.role}
