@@ -44,11 +44,6 @@ const Homepage = () => {
                 Resume
               </button>
             </a>
-            <a href="/Portfolio/transcript.pdf" target="_blank" rel="noopener noreferrer">
-              <button className="p-4 rounded-lg bg-white text-black">
-                Bachelor&apos;s Transcript
-              </button>
-            </a>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useRef } from "react";
 const BASE =
   "https://raw.githubusercontent.com/Kritansh-Tank/Portfolio/main/public";
-const mine = `${BASE}/mine.jpeg`;
+const mine = `${BASE}/kritansh_tank.png`;
 const universityLogo = `${BASE}/university_logo.png`;
 const collegeLogo = `${BASE}/college_logo.jpg`;
 const schoolLogo = `${BASE}/school_logo.png`;

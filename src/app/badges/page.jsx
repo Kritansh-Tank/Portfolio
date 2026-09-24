@@ -9,54 +9,60 @@ const BASE =
 const certItems = [
   {
     id: 1,
+    desc: "Associate Cloud Engineer",
+    org: "Google Cloud",
+    img: `${BASE}/Associate_Cloud_Engineer.png`,
+  },
+  {
+    id: 2,
     desc: "Azure AI Apps and Agents Developer",
     org: "Microsoft",
     img: `${BASE}/Azure_AI_Apps_and_Agents_Developer_Associate.png`,
   },
   {
-    id: 2,
+    id: 3,
     desc: "Copado Certified – Copado AI",
     org: "Copado",
     img: `${BASE}/Copado_Certified.png`,
   },
   {
-    id: 3,
+    id: 4,
     desc: "McKinsey.org Forward Program",
     org: "McKinsey.org",
     img: `${BASE}/McKinsey_Forward.png`,
   },
   {
-    id: 4,
+    id: 5,
     desc: "Gemini Certified Educator",
     org: "Google for Education",
     img: `${BASE}/Gemini_Certified_Educator.png`,
   },
   {
-    id: 5,
+    id: 6,
     desc: "EU CloudCamp4SMEs SMEs Employees",
     org: "CloudCamp4SMEs",
     img: `${BASE}/CloudCamp4SMEs.jpg`,
   },
   {
-    id: 6,
+    id: 7,
     desc: "GitHub Foundations",
     org: "GitHub",
     img: `${BASE}/GitHub_Foundations.png`,
   },
   {
-    id: 7,
+    id: 8,
     desc: "AI Essentials",
     org: "Google x Coursera",
     img: `${BASE}/Google_AI_Essentials.png`,
   },
   {
-    id: 8,
+    id: 9,
     desc: "Cybersecurity Professional Certificate",
     org: "Google x Coursera",
     img: `${BASE}/Google_Cybersecurity_Professional_Certificate.png`,
   },
   {
-    id: 9,
+    id: 10,
     desc: "Cybersecurity Essentials",
     org: "Cisco Networking Academy",
     img: `${BASE}/Cisco_Cybersecurity_Essentials.png`,
@@ -192,11 +198,10 @@ const CertificationsPage = () => {
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`relative px-5 py-2 rounded-full text-sm sm:text-base font-semibold transition-colors duration-200 ${
-              activeTab === tab.id
-                ? "text-white"
-                : "text-gray-600 hover:text-gray-900"
-            }`}
+            className={`relative px-5 py-2 rounded-full text-sm sm:text-base font-semibold transition-colors duration-200 ${activeTab === tab.id
+              ? "text-white"
+              : "text-gray-600 hover:text-gray-900"
+              }`}
           >
             {activeTab === tab.id && (
               <motion.span
