@@ -458,7 +458,7 @@ const AboutPage = () => {
                   </div>
                   {/* COLLEGE NAME */}
                   <div className="p-3 text-xs sm:text-sm italic">
-                    Bharati Vidyapeeth (Deemed to be University)<br />Department of Engineering and Technology, Off Campus, Navi Mumbai{" "}
+                    Bharati Vidyapeeth (Deemed to be University)<br />Department of Engineering and Technology{" "}
                   </div>
                   {/* COLLEGE NAME & LOCATION */}
                   <div className="p-3 text-xs sm:text-sm italic">
