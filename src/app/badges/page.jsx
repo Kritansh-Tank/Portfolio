@@ -9,7 +9,7 @@ const BASE =
 const certItems = [
   {
     id: 1,
-    desc: "AGENTIA_ADVANCED",
+    desc: "AGENTIA ADVANCED",
     org: "Copado",
     img: `${BASE}/AGENTIA_ADVANCED.png`,
   },
