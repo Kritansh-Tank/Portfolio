@@ -9,39 +9,39 @@ const BASE =
 const certItems = [
   {
     id: 1,
+    desc: "AGENTIA_ADVANCED",
+    org: "Copado",
+    img: `${BASE}/AGENTIA_ADVANCED.png`,
+  },
+  {
+    id: 2,
     desc: "COPADO DATA 360",
     org: "Copado",
     img: `${BASE}/COPADO_DATA_360.png`,
   },
   {
-    id: 2,
+    id: 3,
     desc: "Associate Cloud Engineer",
     org: "Google Cloud",
     img: `${BASE}/Associate_Cloud_Engineer.png`,
   },
   {
-    id: 3,
+    id: 4,
     desc: "Azure AI Apps and Agents Developer",
     org: "Microsoft",
     img: `${BASE}/Azure_AI_Apps_and_Agents_Developer_Associate.png`,
   },
   {
-    id: 4,
+    id: 5,
     desc: "Copado AI",
     org: "Copado",
     img: `${BASE}/COPADO_AI.png`,
   },
   {
-    id: 5,
+    id: 6,
     desc: "McKinsey.org Forward Program",
     org: "McKinsey.org",
     img: `${BASE}/McKinsey_Forward.png`,
-  },
-  {
-    id: 6,
-    desc: "Gemini Certified Educator",
-    org: "Google for Education",
-    img: `${BASE}/Gemini_Certified_Educator.png`,
   },
   {
     id: 7,
@@ -66,12 +66,6 @@ const certItems = [
     desc: "Cybersecurity Professional Certificate",
     org: "Google x Coursera",
     img: `${BASE}/Google_Cybersecurity_Professional_Certificate.png`,
-  },
-  {
-    id: 11,
-    desc: "Cybersecurity Essentials",
-    org: "Cisco Networking Academy",
-    img: `${BASE}/Cisco_Cybersecurity_Essentials.png`,
   },
 ];
 
