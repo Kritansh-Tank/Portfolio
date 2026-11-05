@@ -14,28 +14,21 @@ const items = [
     title: "DataBoard",
     desc: "Full-stack data analytics platform that lets users upload CSV datasets, perform statistical analysis, explore interactive visualizations, and manage data through a secure cloud-deployed application.",
     img: `${BASE}/DataBoard.png`,
-    link: "https://d2bnceyxxb14a6.cloudfront.net/",
+    link: "https://github.com/Kritansh-Tank/databoard",
   },
   {
     id: 2,
     title: "VIGIL",
     desc: "Real-time industrial safety intelligence platform that combines live IoT sensor data, work permits, shift context, and historical incidents to detect compound risks and generate AI-powered emergency response plans.",
     img: `${BASE}/Vigil.png`,
-    link: "https://vigil-smoky.vercel.app/",
+    link: "https://github.com/Kritansh-Tank/vigil",
   },
   {
     id: 3,
-    title: "TransitOps",
-    desc: "Smart fleet management platform that streamlines vehicle and driver operations, AI-assisted trip dispatch, maintenance tracking, fuel analytics, reporting, and role-based access control.",
-    img: `${BASE}/TransitOps.png`,
-    link: "https://transitops-dusky.vercel.app/",
-  },
-  {
-    id: 4,
     title: "GreenTrace",
     desc: "AI-powered carbon footprint reduction platform that analyzes personal emissions and uses a ReAct-based AI agent with specialized tools to generate personalized, actionable sustainability plans.",
     img: `${BASE}/GreenTrace.png`,
-    link: "https://green-trace-topaz.vercel.app/",
+    link: "https://github.com/Kritansh-Tank/green-trace",
   },
 ];
 
@@ -154,7 +147,7 @@ const ProjectCard = ({ item, index }) => {
         </p>
         <Link href={item.link} target="_blank" rel="noopener noreferrer">
           <button className="mt-2 px-6 py-3 bg-black text-white rounded-lg font-semibold text-sm hover:bg-gray-800 transition-colors">
-            Live →
+            Repo →
           </button>
         </Link>
       </motion.div>
